@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #111111 27.26%, #FF8C00 96.03%);
+  font-family: 'Nunito', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 30px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 22px;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 86px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: linear-gradient(230.65deg, #ffad34 27.49%, #ffc58d 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #0E1D2F;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: 400; 
+  line-height: 48px;
+  
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+  
+.container3 {
+  background: linear-gradient(230.65deg, #ffc58d 27.49%, #ffad34 83.19%);
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #0E1D2F;
+  padding: 30px;
+  
+}
+
+.contatos {
+  display: flex;
+  flex-direction: lines;
+  align-items: center; 
+}
+
+.icone {
+  border-radius: 40px;
+  max-height: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+
+}
+
+.dark button {
+  background: #1C1C1C;
+  color: #FFFFFF;
+  border: 2px solid #f7f7f7;
+
+}
